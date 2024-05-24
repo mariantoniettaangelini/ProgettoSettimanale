@@ -1,0 +1,19 @@
+<div class="row align-items-center">
+  <div class="col-6 mx-auto mt-2">
+  <div class="card mb-2 card-hover justify-content-center" [ngClass]="{ 'border-3 border-success': fiat.available, 'border-2 border-danger': !fiat.available }" *ngFor="let fiat of getFiatCars()">
+    <div class="header border-bottom">
+      <img src="../../../assets/bootspeed logo.png" class="w-25">
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">{{fiat.brand}}</h3>
+      <p class="card-text">Creatività italiana su strada: Fiat, la scelta della libertà.</p>
+      <p class="card-text fst-italic"><small class="text-body-secondary">{{fiat.available ? "Disponibile" : "Non Disponibile"}}</small></p>
+    </div>
+    <img src="{{fiat.modelImage}}" class="card-img-bottom w-50  d-flex align-self-center mt-1" alt="Fiat car">
+    <div class="d-flex justify-content-between">
+      <p class="card-text mx-3 mb-1"><small class="text-body-secondary">{{fiat.year}}</small></p>
+      <p class="card-text mx-3 mb-1"><small class="text-body-secondary">{{fiat.price}}€</small></p>
+    </div>
+  </div>
+  </div>
+  </div>

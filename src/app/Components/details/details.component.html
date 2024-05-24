@@ -1,0 +1,12 @@
+<div class="card text align-items-center">
+  <h1 *ngIf="carDetails">Scopri di più!</h1>
+  <img src="{{carDetails.modelImage}}" class="card-img w-50" alt="Car image ">
+  <div class="card-img-overlay">
+    <h3 class="card-title">{{carDetails.brand}}</h3>
+    <h5 class="card-text">{{carDetails.model}}</h5>
+    <div class="d-flex justify-content-between">
+      <p class="card-text mx-3 mb-1"><small class="text-body-secondary">{{carDetails.year}}</small></p>
+      <p class="card-text mx-3 mb-1"><small class="text-body-secondary">{{carDetails.price}}€</small></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="row align-items-center">
+<div class="col-6 mx-auto mt-2">
+<div class="card mb-2 justify-content-center card-hover" [ngClass]="{ 'border-3 border-success': audi.available, 'border-2 border-danger': !audi.available }" *ngFor="let audi of getAudiCars()">
+  <div class="header border-bottom">
+    <img src="../../../assets/bootspeed logo.png" class="w-25">
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">{{audi.brand}}</h3>
+    <p class="card-text">Eleva la tua esperienza di guida con Audi: dove la prestazione incontra l'eleganza.</p>
+    <p class="card-text fst-italic"><small class="text-body-secondary">{{audi.available ? "Disponibile" : "Non Disponibile"}}</small></p>
+  </div>
+  <img src="{{audi.modelImage}}" class="card-img-bottom w-50  d-flex align-self-center mt-1" alt="Audi car">
+  <div class="d-flex justify-content-between">
+    <p class="card-text mx-3 mb-1"><small class="text-body-secondary">{{audi.year}}</small></p>
+    <p class="card-text mx-3 mb-1"><small class="text-body-secondary">{{audi.price}}€</small></p>
+  </div>
+</div>
+</div>
+</div>

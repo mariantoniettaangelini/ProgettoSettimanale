@@ -1,0 +1,32 @@
+<div class="container-fluid d-flex align-items-center">
+  <div class="row d-flex">
+    <div class="col-12">
+      <div class="card text-center mt-2">
+        <div class="header border-bottom">
+          <img src="../../../assets/bootspeed logo.png" class="w-25">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Guida la tua passione, trova la tua auto da sogno!</h5>
+          <p class="card-text">I nostri brand</p>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10lo01A2YrKmm7_7fNJm3wwUvl3zic96qPq4HGJ603w&s" routerLink="/Fiat" class="logo me-4 logo-hover" width="120px" height="100px">
+            <img src="https://logowik.com/content/uploads/images/562_audi.jpg" routerLink="/Audi" class="logo me-4 logo-hover" width="120px" height="100px">
+            <img src="https://seekvectorlogo.com/wp-content/uploads/2018/03/ford-vector-logo.png" routerLink="/Ford" class="logo logo-hover" width="120px" height="100px">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 mx-auto mt-2">
+      <div class="card mb-2 justify-content-center card-hover" [ngClass]="{ 'border-3 border-success': c.available, 'border-2 border-danger': !c.available }" *ngFor="let c of getRandomCars()">
+        <img src="{{ c.modelImage }}" class="card-img-bottom w-50 mt-1 d-flex align-self-center" alt="Car pic" />
+        <div class="card-body d-flex flex-column align-items-center">
+          <h5 class="card-title">{{c.brand}}</h5>
+          <p class="card-text">
+            {{c.model}}
+          </p>
+          <a [routerLink]="[c.brand.toLowerCase()]" class="btn btn-primary">Scopri di più</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

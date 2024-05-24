@@ -1,0 +1,56 @@
+[
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://w7.pngwing.com/pngs/393/277/png-transparent-fiat-automobiles-car-chrysler-2018-fiat-500-fiat-emblem-trademark-logo.png",
+        "model": "500L",
+        "modelImage": "https://picolio.auto123.com/15photo/fiat/2015-fiat-500l-lounge_1.png",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://w7.pngwing.com/pngs/393/277/png-transparent-fiat-automobiles-car-chrysler-2018-fiat-500-fiat-emblem-trademark-logo.png",
+        "model": "500 Abarth",
+        "modelImage": "https://images.hgmsites.net/lrg/2015-fiat-500-2-door-hb-abarth-angular-front-exterior-view_100488102_l.jpg",
+        "year": 2010,
+        "price": 3500,
+        "available": true
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://w7.pngwing.com/pngs/468/848/png-transparent-logo-ford-logo-car-car-standard-pattern-flag-cars.png",
+        "model": "Taurus",
+        "modelImage": "https://www.cars.com/i/large/in/v2/stock_photos/9d129a64-9dcb-491c-8636-6748e94ae646/24ca9169-53ef-46e7-9fc9-cbf877086ea5.png",
+        "year": 2009,
+        "price": 5200,
+        "available": false
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://w7.pngwing.com/pngs/468/848/png-transparent-logo-ford-logo-car-car-standard-pattern-flag-cars.png",
+        "model": "Focus",
+        "modelImage": "https://www.motortrend.com/uploads/sites/10/2015/11/2014-ford-focus-se-sedan-angular-front.png",
+        "year": 2014,
+        "price": 9700,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://i.pinimg.com/736x/d0/27/dd/d027dddb727d742d8c209be8e8bbe624.jpg",
+        "model": "A3",
+        "modelImage": "https://platform.cstatic-images.com/in/v2/stock_photos/c1f73900-205f-48a8-bf8a-4f31feab403a/46a21f43-ade3-4511-a2bf-32617843df9b.png",
+        "year": 2012,
+        "price": 4300,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://i.pinimg.com/736x/d0/27/dd/d027dddb727d742d8c209be8e8bbe624.jpg",
+        "model": "Q7",
+        "modelImage": "https://www.cars.com/i/large/in/v2/stock_photos/c37af08e-c36c-4404-84f5-172037930b70/d27e63a5-0237-4d39-8fd5-cbfaa952288d.png",
+        "year": 2020,
+        "price": 41700,
+        "available": false
+    }
+]
